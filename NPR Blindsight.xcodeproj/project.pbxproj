@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54613802A54D0AD00E1318E /* NPRBlindsightFNv1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B546137F2A54D0AD00E1318E /* NPRBlindsightFNv1.mlmodel */; };
+		C5A53E9729C2ECBD00424CEB /* NPR_BlindsightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53E9629C2ECBD00424CEB /* NPR_BlindsightApp.swift */; };
+		C5A53E9929C2ECBD00424CEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53E9829C2ECBD00424CEB /* ContentView.swift */; };
+		C5A53E9B29C2ECBE00424CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A53E9A29C2ECBE00424CEB /* Assets.xcassets */; };
+		C5A53E9E29C2ECBE00424CEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A53E9D29C2ECBE00424CEB /* Preview Assets.xcassets */; };
+		C5A53EA829C2ECBE00424CEB /* NPR_BlindsightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53EA729C2ECBE00424CEB /* NPR_BlindsightTests.swift */; };
+		C5A53EB229C2ECBE00424CEB /* NPR_BlindsightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53EB129C2ECBE00424CEB /* NPR_BlindsightUITests.swift */; };
+		C5A53EB429C2ECBE00424CEB /* NPR_BlindsightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53EB329C2ECBE00424CEB /* NPR_BlindsightUITestsLaunchTests.swift */; };
+		C5A53F0D29C2F41A00424CEB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F0C29C2F41A00424CEB /* CameraViewController.swift */; };
+		C5A53F0E29C2F41A00424CEB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F0C29C2F41A00424CEB /* CameraViewController.swift */; };
+		C5A53F0F29C2F41A00424CEB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F0C29C2F41A00424CEB /* CameraViewController.swift */; };
+		C5A53F1129C2F43200424CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F1029C2F43200424CEB /* ViewController.swift */; };
+		C5A53F1229C2F43200424CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F1029C2F43200424CEB /* ViewController.swift */; };
+		C5A53F1329C2F43200424CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F1029C2F43200424CEB /* ViewController.swift */; };
+		C5A53F1629C30B5F00424CEB /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F1529C30B5F00424CEB /* BoundingBoxView.swift */; };
+		C5A53F1729C30B5F00424CEB /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F1529C30B5F00424CEB /* BoundingBoxView.swift */; };
+		C5A53F1829C30B5F00424CEB /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A53F1529C30B5F00424CEB /* BoundingBoxView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A53EA429C2ECBE00424CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A53E8B29C2ECBD00424CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A53E9229C2ECBD00424CEB;
+			remoteInfo = "NPR Blindsight";
+		};
+		C5A53EAE29C2ECBE00424CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A53E8B29C2ECBD00424CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A53E9229C2ECBD00424CEB;
+			remoteInfo = "NPR Blindsight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B546137F2A54D0AD00E1318E /* NPRBlindsightFNv1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NPRBlindsightFNv1.mlmodel; sourceTree = "<group>"; };
+		C5A53E9329C2ECBD00424CEB /* NPR Blindsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NPR Blindsight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A53E9629C2ECBD00424CEB /* NPR_BlindsightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR_BlindsightApp.swift; sourceTree = "<group>"; };
+		C5A53E9829C2ECBD00424CEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5A53E9A29C2ECBE00424CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A53E9D29C2ECBE00424CEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5A53EA329C2ECBE00424CEB /* NPR BlindsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPR BlindsightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A53EA729C2ECBE00424CEB /* NPR_BlindsightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR_BlindsightTests.swift; sourceTree = "<group>"; };
+		C5A53EAD29C2ECBE00424CEB /* NPR BlindsightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPR BlindsightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A53EB129C2ECBE00424CEB /* NPR_BlindsightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR_BlindsightUITests.swift; sourceTree = "<group>"; };
+		C5A53EB329C2ECBE00424CEB /* NPR_BlindsightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR_BlindsightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5A53F0C29C2F41A00424CEB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C5A53F1029C2F43200424CEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5A53F1429C2FD7200424CEB /* NPR-Blindsight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NPR-Blindsight-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C5A53F1529C30B5F00424CEB /* BoundingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A53E9029C2ECBD00424CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A53EA029C2ECBE00424CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A53EAA29C2ECBE00424CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A53E8A29C2ECBD00424CEB = {
+			isa = PBXGroup;
+			children = (
+				C5A53E9529C2ECBD00424CEB /* NPR Blindsight */,
+				C5A53EA629C2ECBE00424CEB /* NPR BlindsightTests */,
+				C5A53EB029C2ECBE00424CEB /* NPR BlindsightUITests */,
+				C5A53E9429C2ECBD00424CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A53E9429C2ECBD00424CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A53E9329C2ECBD00424CEB /* NPR Blindsight.app */,
+				C5A53EA329C2ECBE00424CEB /* NPR BlindsightTests.xctest */,
+				C5A53EAD29C2ECBE00424CEB /* NPR BlindsightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A53E9529C2ECBD00424CEB /* NPR Blindsight */ = {
+			isa = PBXGroup;
+			children = (
+				C5A53F1429C2FD7200424CEB /* NPR-Blindsight-Info.plist */,
+				C5A53E9629C2ECBD00424CEB /* NPR_BlindsightApp.swift */,
+				C5A53E9829C2ECBD00424CEB /* ContentView.swift */,
+				C5A53F1529C30B5F00424CEB /* BoundingBoxView.swift */,
+				C5A53F0C29C2F41A00424CEB /* CameraViewController.swift */,
+				C5A53F1029C2F43200424CEB /* ViewController.swift */,
+				C5A53E9A29C2ECBE00424CEB /* Assets.xcassets */,
+				B546137F2A54D0AD00E1318E /* NPRBlindsightFNv1.mlmodel */,
+				C5A53E9C29C2ECBE00424CEB /* Preview Content */,
+			);
+			path = "NPR Blindsight";
+			sourceTree = "<group>";
+		};
+		C5A53E9C29C2ECBE00424CEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5A53E9D29C2ECBE00424CEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5A53EA629C2ECBE00424CEB /* NPR BlindsightTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A53EA729C2ECBE00424CEB /* NPR_BlindsightTests.swift */,
+			);
+			path = "NPR BlindsightTests";
+			sourceTree = "<group>";
+		};
+		C5A53EB029C2ECBE00424CEB /* NPR BlindsightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A53EB129C2ECBE00424CEB /* NPR_BlindsightUITests.swift */,
+				C5A53EB329C2ECBE00424CEB /* NPR_BlindsightUITestsLaunchTests.swift */,
+			);
+			path = "NPR BlindsightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A53E9229C2ECBD00424CEB /* NPR Blindsight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A53EB729C2ECBE00424CEB /* Build configuration list for PBXNativeTarget "NPR Blindsight" */;
+			buildPhases = (
+				C5A53E8F29C2ECBD00424CEB /* Sources */,
+				C5A53E9029C2ECBD00424CEB /* Frameworks */,
+				C5A53E9129C2ECBD00424CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NPR Blindsight";
+			productName = "NPR Blindsight";
+			productReference = C5A53E9329C2ECBD00424CEB /* NPR Blindsight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A53EA229C2ECBE00424CEB /* NPR BlindsightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A53EBA29C2ECBE00424CEB /* Build configuration list for PBXNativeTarget "NPR BlindsightTests" */;
+			buildPhases = (
+				C5A53E9F29C2ECBE00424CEB /* Sources */,
+				C5A53EA029C2ECBE00424CEB /* Frameworks */,
+				C5A53EA129C2ECBE00424CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A53EA529C2ECBE00424CEB /* PBXTargetDependency */,
+			);
+			name = "NPR BlindsightTests";
+			productName = "NPR BlindsightTests";
+			productReference = C5A53EA329C2ECBE00424CEB /* NPR BlindsightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5A53EAC29C2ECBE00424CEB /* NPR BlindsightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A53EBD29C2ECBE00424CEB /* Build configuration list for PBXNativeTarget "NPR BlindsightUITests" */;
+			buildPhases = (
+				C5A53EA929C2ECBE00424CEB /* Sources */,
+				C5A53EAA29C2ECBE00424CEB /* Frameworks */,
+				C5A53EAB29C2ECBE00424CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A53EAF29C2ECBE00424CEB /* PBXTargetDependency */,
+			);
+			name = "NPR BlindsightUITests";
+			productName = "NPR BlindsightUITests";
+			productReference = C5A53EAD29C2ECBE00424CEB /* NPR BlindsightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A53E8B29C2ECBD00424CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C5A53E9229C2ECBD00424CEB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C5A53EA229C2ECBE00424CEB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C5A53E9229C2ECBD00424CEB;
+					};
+					C5A53EAC29C2ECBE00424CEB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C5A53E9229C2ECBD00424CEB;
+					};
+				};
+			};
+			buildConfigurationList = C5A53E8E29C2ECBD00424CEB /* Build configuration list for PBXProject "NPR Blindsight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A53E8A29C2ECBD00424CEB;
+			productRefGroup = C5A53E9429C2ECBD00424CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A53E9229C2ECBD00424CEB /* NPR Blindsight */,
+				C5A53EA229C2ECBE00424CEB /* NPR BlindsightTests */,
+				C5A53EAC29C2ECBE00424CEB /* NPR BlindsightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A53E9129C2ECBD00424CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A53E9E29C2ECBE00424CEB /* Preview Assets.xcassets in Resources */,
+				C5A53E9B29C2ECBE00424CEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A53EA129C2ECBE00424CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A53EAB29C2ECBE00424CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A53E8F29C2ECBD00424CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54613802A54D0AD00E1318E /* NPRBlindsightFNv1.mlmodel in Sources */,
+				C5A53F1129C2F43200424CEB /* ViewController.swift in Sources */,
+				C5A53F1629C30B5F00424CEB /* BoundingBoxView.swift in Sources */,
+				C5A53F0D29C2F41A00424CEB /* CameraViewController.swift in Sources */,
+				C5A53E9929C2ECBD00424CEB /* ContentView.swift in Sources */,
+				C5A53E9729C2ECBD00424CEB /* NPR_BlindsightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A53E9F29C2ECBE00424CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A53EA829C2ECBE00424CEB /* NPR_BlindsightTests.swift in Sources */,
+				C5A53F1729C30B5F00424CEB /* BoundingBoxView.swift in Sources */,
+				C5A53F1229C2F43200424CEB /* ViewController.swift in Sources */,
+				C5A53F0E29C2F41A00424CEB /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A53EA929C2ECBE00424CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A53F1329C2F43200424CEB /* ViewController.swift in Sources */,
+				C5A53F1829C30B5F00424CEB /* BoundingBoxView.swift in Sources */,
+				C5A53F0F29C2F41A00424CEB /* CameraViewController.swift in Sources */,
+				C5A53EB229C2ECBE00424CEB /* NPR_BlindsightUITests.swift in Sources */,
+				C5A53EB429C2ECBE00424CEB /* NPR_BlindsightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A53EA529C2ECBE00424CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A53E9229C2ECBD00424CEB /* NPR Blindsight */;
+			targetProxy = C5A53EA429C2ECBE00424CEB /* PBXContainerItemProxy */;
+		};
+		C5A53EAF29C2ECBE00424CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A53E9229C2ECBD00424CEB /* NPR Blindsight */;
+			targetProxy = C5A53EAE29C2ECBE00424CEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5A53EB529C2ECBE00424CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5A53EB629C2ECBE00424CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A53EB829C2ECBE00424CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NPR Blindsight/Preview Content\"";
+				DEVELOPMENT_TEAM = TGBFA3XZL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NPR-Blindsight-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to detect Nepali Rupee banknotes for visually-impaired users.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takwin.NPR-Blindsight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5A53EB929C2ECBE00424CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NPR Blindsight/Preview Content\"";
+				DEVELOPMENT_TEAM = TGBFA3XZL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NPR-Blindsight-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to detect Nepali Rupee banknotes for visually-impaired users.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takwin.NPR-Blindsight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5A53EBB29C2ECBE00424CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBFA3XZL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takwin.NPR-BlindsightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPR Blindsight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NPR Blindsight";
+			};
+			name = Debug;
+		};
+		C5A53EBC29C2ECBE00424CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBFA3XZL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takwin.NPR-BlindsightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPR Blindsight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NPR Blindsight";
+			};
+			name = Release;
+		};
+		C5A53EBE29C2ECBE00424CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBFA3XZL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takwin.NPR-BlindsightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NPR Blindsight";
+			};
+			name = Debug;
+		};
+		C5A53EBF29C2ECBE00424CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGBFA3XZL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takwin.NPR-BlindsightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NPR Blindsight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A53E8E29C2ECBD00424CEB /* Build configuration list for PBXProject "NPR Blindsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A53EB529C2ECBE00424CEB /* Debug */,
+				C5A53EB629C2ECBE00424CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A53EB729C2ECBE00424CEB /* Build configuration list for PBXNativeTarget "NPR Blindsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A53EB829C2ECBE00424CEB /* Debug */,
+				C5A53EB929C2ECBE00424CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A53EBA29C2ECBE00424CEB /* Build configuration list for PBXNativeTarget "NPR BlindsightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A53EBB29C2ECBE00424CEB /* Debug */,
+				C5A53EBC29C2ECBE00424CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A53EBD29C2ECBE00424CEB /* Build configuration list for PBXNativeTarget "NPR BlindsightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A53EBE29C2ECBE00424CEB /* Debug */,
+				C5A53EBF29C2ECBE00424CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A53E8B29C2ECBD00424CEB /* Project object */;
+}
