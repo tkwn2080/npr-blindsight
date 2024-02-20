@@ -1,0 +1,16 @@
+{
+  "MLModelVersionStringKey" : "8.0.150",
+  "MLModelDescriptionKey" : "Ultralytics best model trained on \/content\/datasets\/NPR-Blindsight-18\/data.yaml",
+  "MLModelCreatorDefinedKey" : {
+    "stride" : "32",
+    "Confidence threshold" : "0.25",
+    "IoU threshold" : "0.45",
+    "task" : "detect",
+    "imgsz" : "[640, 640]",
+    "date" : "2023-12-18T03:04:52.021176",
+    "batch" : "1",
+    "names" : "{0: '10', 1: '100', 2: '1000', 3: '20', 4: '5', 5: '50', 6: '500', 7: 'other'}"
+  },
+  "MLModelAuthorKey" : "Ultralytics",
+  "MLModelLicenseKey" : "AGPL-3.0 https:\/\/ultralytics.com\/license"
+}
